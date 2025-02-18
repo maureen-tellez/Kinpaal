@@ -1,9 +1,20 @@
 .prin_navbar
 {
-    background-color: #048C8C !important;
+    background-color: #048C8C ;
+    display: flex; /* Activa flexbox */
+    justify-content: space-evenly; /* Distribuye uniformemente */
+    gap: 3rem; /* Espacio entre elementos (equivalente a Bootstrap gap-3) */
     
 
 }
-h1{
-    color: #048C8C;
+/*Letra del documento*/
+body {
+    font-family: 'Poppins', sans-serif;
 }
+
+.custom-nav {
+    display: flex; /* Activa flexbox */
+    justify-content: space-evenly; /* Distribuye uniformemente */
+    gap: 3rem; /* Espacio entre elementos (equivalente a Bootstrap gap-3) */
+  }
+  
