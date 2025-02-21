@@ -1,0 +1,122 @@
+/* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+p{
+    line-height: 1.5;
+}
+
+/* Navbar */
+.prin_navbar {
+   background-color: #efefef;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+.carousel img{
+  width: 100%;
+  height: 700px;
+}
+
+/* Pie de página */
+.pie-pagina {
+    width: 100%;
+    background-color: #efefef;
+}
+
+.pie-pagina .grupo-1,
+.pie-pagina .grupo-2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+    box-sizing: border-box; /* Asegura que el padding y los márgenes no rompan el diseño */
+}
+
+/* Estilos para la caja dentro del pie de página */
+.pie-pagina .grupo-1 .box,
+.pie-pagina .grupo-2 .box {
+    padding: 0 20px; /* Agrega un pequeño padding interno para evitar que el contenido se pegue a los bordes */
+    box-sizing: border-box;
+}
+
+/* Ajustes para la imagen dentro de la caja */
+.pie-pagina .grupo-1 .box figure img {
+    width: 100%;
+    max-width: 250px; /* Ajusta el tamaño máximo para imágenes */
+    height: auto;
+}
+
+/* Estilos para los textos */
+.pie-pagina .grupo-1 .box h2 {
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center; /* Centra el título */
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #048C8C;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el párrafo */
+}
+
+/* Estilos para los iconos de redes sociales */
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #048C8C;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: #F2BB16;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+    .pie-pagina .grupo-1 {
+        grid-template-columns: 1fr; /* Cambia las columnas a una sola en pantallas pequeñas */
+        text-align: center; /* Centra los elementos en pantallas pequeñas */
+    }
+
+    .pie-pagina .box {
+        margin-bottom: 20px;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+
+    /* Ajustar la altura de la imagen en pantallas pequeñas */
+    .pie-pagina .grupo-1 .box figure img {
+        max-width: 200px; /* Limita el tamaño de la imagen en pantallas pequeñas */
+    }
+}
+/* Cambiar color del título cuando el mouse pase por encima del navbar */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #048C8C; 
+    text-shadow: #F2BB16;
+}

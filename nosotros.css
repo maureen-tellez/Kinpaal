@@ -1,0 +1,70 @@
+.nosotros {
+    text-align: center; 
+    padding: 40px 20px; /* Espaciado alrededor del contenido */
+    max-width: 800px; /* Limita el ancho del texto */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+  }
+  
+  .filosofia-box {
+    background-color: #f8f9fa; 
+    padding: 30px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    
+  }
+  
+  .filosofia-box h1 {
+    margin-bottom: 15px; /* Espacio debajo del título */
+    font-size: 28px; 
+    color: #048C8C; 
+    border-bottom: 2px solid #F2BB16; 
+  }
+  
+  .filosofia-box p { /*Parrafo*/
+    font-size: 18px; 
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: justify; 
+  }
+  
+  /* Estilos para la imagen */
+  .nosotros img {
+    width: 60%; /* Tamaño más controlado */
+    max-width: 500px; /* Evita que sea muy grande */
+    border-radius: 15px; /* Esquinas redondeadas */
+    display: block; /* Evita márgenes raros */
+    margin: 20px auto; /* Espacio arriba y abajo y centrado */
+  }
+  
+  /* Estilos para la lista */
+  .creencias {
+    background-color: #f8f9fa; 
+    padding: 30px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 800px; 
+    margin: 30px auto; 
+    text-align: center; 
+  }
+  
+  .creencias h3 {
+    font-size: 24px; 
+    font-weight: bold; 
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    margin-bottom: 20px; /* Más espacio debajo */
+    border-bottom: 2px solid #F2BB16; /* Línea decorativa debajo */
+    display: inline-block; /* Para que la línea no ocupe todo el ancho */
+    padding-bottom: 5px; /* Espacio entre el texto y la línea */
+    color: #048C8C; 
+  }
+  
+  
+  .creencias li {
+    font-size: 18px; 
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: left; 
+    margin-bottom: 10px; /* Espacio entre elementos */
+    list-style-type: disc; /* Viñetas redondas */
+    padding-left: 15px; /* Alineación más estética */
+  }
+  
