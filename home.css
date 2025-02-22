@@ -1,8 +1,8 @@
 
 #carouselExampleAutoplaying .carousel-item img {
-    max-width: 100%; /* Limita el ancho al 100% del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    max-height: 400px; /* Limita la altura máxima de las imágenes */
+    max-width: 100%; 
+    height: auto; 
+    max-height: 400px; 
     object-fit: cover; /* Mantiene la proporción de la imagen sin distorsionar */
   }
   
