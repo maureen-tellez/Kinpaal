@@ -49,7 +49,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="adminisiones.html">Adminisiones</a>
+            <a class="nav-link active" aria-current="page" href="adminisiones.html">Solicitud de Informes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
@@ -59,21 +59,95 @@
     </div>
   </nav>
 
+  <h1>Solicitud de Informes</h1>
+  <br>
+  <h5>Datos del alumno</h5>
+<!--Forms adminsiones-->
+<br>
   <form>
-    <div class="adminisiones">
-      <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text"></div>
+      <!--Name Student-->
+    <div class="nameStudent">
+      <label for="fname" class="form-label">Nombre del alumno: *</label>
+      <input type="text" class="form-control" id="InputnameStudent" aria-describedby="Nombre del alumno" required>
+      <div id="nameHelp" class="form-text"></div>
     </div>
+    <br>
+    <form>
+    
+      <!--Age Student-->
+      <div class="ageStudent">
+        <label for="ageStudent" class="form-label">Edad al 1ro de Septiembre (años-meses) del año de inscripción: *</label>
+        <input type="text" class="form-control" id="InputageStudent" aria-describedby="Edad del alumno" required>
+        <div id="lastHelp" class="form-text"></div>
+      </div>
+      <br>
+          <!--College year -->
+      <div class="collegeYear">
+        <label for="years">Interesado para el grado escolar: *</label>
+        <br>
+        <select id="collegeyear" name="college" required>
+            <option value="kinder1">1°Kinder</option>
+            <option value="kinder2">2°Kinder</option>
+            <option value="kinder3">3°Kinder</option>
+            <option value="primary1">1° Primaria</option>
+            <option value="primary2">2° Primaria</option>
+            <option value="primary3">3° Primaria</option>
+            <option value="primary4">4° Primaria</option>
+            <option value="primary5">5° Primaria</option>
+            <option value="primary6">6° Primaria</option>
+        </select>
+      </div>
+      <br>
+<!--date of birth-->
+
+  <div class="birthDate">
+    <form action="#" >
+      <label for="date" class="form-label"> Fecha de nacimiento: * </label>
+      <input type="date" id="date" required>
+  </form>
+  </div>
+  <br><br>
+  <h5>Datos del padre o tutor</h5>
+  <!--Name Parent-->
+  <div class="nameParent">
+    <label for="fname" class="form-label">Nombre del tutor: *</label>
+    <input type="text" class="form-control" id="InputnameParent" aria-describedby="Nombre del padre" required>
+    <div id="nameHelp" class="form-text"></div>
+  </div>
+  <br>
+  <form>
+
+    <!--Ocupattion -->
+      <div class="ocupattionParent">
+        <label for="flastname" class="form-label">Ocupación del tutor: </label>
+        <input type="text" class="form-control" id="InputlastnameStudent" aria-describedby="Ocupación del padre" >
+        <div id="lastHelp" class="form-text"></div>
+      </div>
+      <br>
+      <!--Number-->
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
+      <label for="InputTelephone" class="form-label">Número telefónico</label>
+      <input type="number" class="form-control" id="InputTelephone" required>
     </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <!--Email-->
+    <div class="emailparent">
+      <label for="email">Email del tutor: *</label>
+        <input type="email" name="email"  required>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <br>
+    <!--Inscription-->
+    <div class="gender-group">
+    <p>¿Has realizado anteriormente el proceso de inscripción en los Centros Educativos Kinpaal?</p>
+      <input type="radio" name="yes" value="yes" id="yes" required />
+      <label for="yes">Si</label>
+      
+      <input type="radio" name="no" value="no" id="no" />
+      <label for="yes">No</label>
+  </div>
+  
+    <br><br>
+    <!--Submit-->
+    <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
 
 
