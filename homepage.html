@@ -20,9 +20,9 @@
     <header>
         <nav class="navbar navbar-expand-lg prin_navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="homepage.html">
                     <img src="assets/images/logo_trans.png" alt="Logo del Centro Educativo Kinpaal" width="200" height="100" class="logo_homepage">
-                </a>
+                  </a>                  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -88,32 +88,38 @@
     <!-- Contenedor de las cards -->
     <main>
         <div class="container mt-5">
+            <h1 class="text-center mb-4">Oferta Educativa</h1> <!-- Título fuera de .row -->
+    
             <div class="row">
-                <h1>Oferta Educativa</h1>
+                <!-- Tarjeta de Preescolar -->
                 <div class="col-md-6 col-lg-4 mb-4">
-                  <a href="preescolar.html" style="text-decoration: none; color: inherit;">
-                    <div class="card">
-                        <img src="assets/images/niña1.jpg" class="card-img-top" alt="Niña en aula de preescolar">
-                        <div class="card-body">
-                            <h5 class="card-title">Preescolar</h5>
-                            <p class="card-text">Educación inicial de calidad para el desarrollo de los más pequeños.</p>               
+                    <a href="preescolar.html" style="text-decoration: none; color: inherit;">
+                        <div class="card">
+                            <img src="assets/images/preescolar1.jpg" class="card-img-top" alt="Niña en aula de preescolar">
+                            <div class="card-body">
+                                <h5 class="card-title">Preescolar</h5>
+                                <p class="card-text">Educación inicial de calidad para el desarrollo de los más pequeños.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+    
+                <!-- Tarjeta de Primaria -->
                 <div class="col-md-6 col-lg-4 mb-4">
-                  <a href="primaria.html" style="text-decoration: none; color: inherit;">
-                    <div class="card">
-                        <img src="assets/images/niños2.jpg" class="card-img-top" alt="Niños en aula de primaria">
-                        <div class="card-body">
-                            <h5 class="card-title">Primaria</h5>
-                            <p class="card-text">Formación integral con énfasis en habilidades académicas y sociales.</p>
+                    <a href="primaria.html" style="text-decoration: none; color: inherit;">
+                        <div class="card">
+                            <img src="assets/images/niños2.jpg" class="card-img-top" alt="Niños en aula de primaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Primaria</h5>
+                                <p class="card-text">Formación integral con énfasis en habilidades académicas y sociales.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </main>
-
+    
     <!-- Google Maps -->
     <div class="map-container">
         <h2>Ubicación</h2>
@@ -121,33 +127,47 @@
         width="100%" height="450" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
-    <!-- Pie de página -->
-    <footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure> 
-                    <a href="#">
-                        <img src="assets/images/logo_trans.png" alt="Logo del Centro Educativo Kinpaal">
-                    </a>
-                </figure> 
-            </div>
-            <div class="box">
-                <h2>CONTACTO y UBICACIÓN</h2>
-                <p>Tel. 688-32-96 y 999-438-87-22</p>
-                <h2>UBICACIÓN</h2>
-                <p>Calle 129 No. 574 x 138 y 140 Fraccionamiento "Los Héroes"</p>
-            </div>
-            <div class="box">
-                <h2>SÍGUENOS</h2>
-                <div class="red-social">
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </div>
+  <!-- Pie de página -->
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <!-- Logo a la izquierda -->
+        <div class="box logo">
+            <figure>
+                <a href="#">
+                    <img src="assets/images/logo_trans.png" alt="Logo del Centro Educativo Kinpaal">
+                </a>
+            </figure>
+        </div>
+
+        <!-- Contacto y ubicación en el centro -->
+        <div class="box contacto">
+            <h2>CONTACTO</h2>
+            <p>Tel. 688-32-96 y 999-438-87-22</p>
+            <p>kinpaal@outlook.com</p>
+            
+            <h2>UBICACIÓN</h2>
+            <p>Calle 129 No. 574 x 138 y 140 Fraccionamiento "Los Héroes"</p>
+        </div>
+
+        <!-- Redes sociales a la derecha -->
+        <div class="box redes">
+            <h2>SÍGUENOS</h2>
+            <div class="red-social">
+                <a href="https://www.facebook.com/profile.php?id=100055826240220" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/centroeducativokinpaal?igsh=d2VvaHBzYWR1ZzBl" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
         </div>
-        <div class="grupo-2">
-            <small>&copy; 2025 <b>Centro Educativo Kinpaal</b> - Todos los Derechos Reservados.</small>
-       
-<body>
+    </div>
+    <!-- Apartado de derechos reservados centrado -->
+    <div class="grupo-2">
+        <small>&copy; 2025 <b>Centro Educativo Kinpaal</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+
+
+</body>
 </html>

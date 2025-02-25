@@ -11,34 +11,56 @@
     display: flex;
     gap: 5%;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a varias líneas */
     overflow-x: auto;
     padding: 5%;
     white-space: nowrap;
-    
+    align-items: center;
 }
 
 .card img {
     width: 100%;
-    height: 200px;
+    height: auto; /* Ajusta la altura proporcionalmente */
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
+    display: inline-block;
+    max-width: 500px;
+    max-height: 300px; /* Ajusta la altura máxima */
+    border-radius: 5px;
 }
-.row h1 {
+
+
+h1 {
     font-size: 34px; 
     font-weight: bold; 
-    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    text-transform: uppercase; 
     border-bottom: 2px solid #F2BB16; 
     color: #048C8C;
     text-align: center;
+    margin-bottom: 30px; /* Añade un margen inferior para separación */
 }
 
+/* Alineación de las tarjetas */
+.row {
+    align-content: center;
+}
+
+/* Efecto hover de las tarjetas */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .card img {
+        max-width: 100%; /* Asegura que la imagen ocupe todo el ancho en pantallas pequeñas */
+        max-height: 200px; /* Limita la altura de las imágenes */
+    }
+}
 
 
 /* Mapa (con contenedor) */
