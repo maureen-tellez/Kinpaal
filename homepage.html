@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="principal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="shortcut icon" href="assets/images/logo_trans.png"type="image/png">
+    <link rel="shortcut icon" href="assets/resources/logo_blanco.png"type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg prin_navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="homepage.html">
-                    <img src="assets/images/logo_trans.png" alt="Logo del Centro Educativo Kinpaal" width="200" height="100" class="logo_homepage">
+                    <img src="assets/resources/logo_trans.png" alt="Logo del Centro Educativo Kinpaal" width="200" height="100" class="logo_homepage">
                   </a>                  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -66,13 +66,13 @@
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/porfuera.jpg" class="d-block w-100" alt="Instalaciones exteriores del centro educativo">
+                <img src="assets/photos/porfuera.jpg" class="d-block w-100" alt="Instalaciones exteriores del centro educativo">
             </div>
             <div class="carousel-item">
-                <img src="assets/images/salones1.jpg" class="d-block w-100" alt="Salones de clases del centro educativo">
+                <img src="assets/photos/salones1.jpg" class="d-block w-100" alt="Salones de clases del centro educativo">
             </div>
             <div class="carousel-item">
-                <img src="assets/images/porfuera.jpg" class="d-block w-100" alt="Niños jugando en el centro educativo">
+                <img src="assets/photos/actividad2.jpg" class="d-block w-100" alt="Niños jugando en el centro educativo">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -95,11 +95,8 @@
                 <div class="col-md-6 col-lg-4 mb-4">
                     <a href="preescolar.html" style="text-decoration: none; color: inherit;">
                         <div class="card">
-                            <img src="assets/images/preescolar1.jpg" class="card-img-top" alt="Niña en aula de preescolar">
-                            <div class="card-body">
-                                <h5 class="card-title">Preescolar</h5>
-                                <p class="card-text">Educación inicial de calidad para el desarrollo de los más pequeños.</p>
-                            </div>
+                            <img src="assets/resources/card_prees.jpg" class="card-img-top" alt="Preescolar">
+                            
                         </div>
                     </a>
                 </div>
@@ -108,11 +105,8 @@
                 <div class="col-md-6 col-lg-4 mb-4">
                     <a href="primaria.html" style="text-decoration: none; color: inherit;">
                         <div class="card">
-                            <img src="assets/images/niños2.jpg" class="card-img-top" alt="Niños en aula de primaria">
-                            <div class="card-body">
-                                <h5 class="card-title">Primaria</h5>
-                                <p class="card-text">Formación integral con énfasis en habilidades académicas y sociales.</p>
-                            </div>
+                            <img src="assets/resources/card_prim.jpg" class="card-img-top" alt="primaria">
+                        
                         </div>
                     </a>
                 </div>
@@ -120,13 +114,38 @@
         </div>
     </main>
     
+    
     <!-- Google Maps -->
     <div class="map-container">
-        <h2>Ubicación</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9339.251947775389!2d-89.53591014243537!3d20.99132728046884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567a183131fc35%3A0x461a49387bf1470d!2sKinpaal!5e0!3m2!1ses-419!2smx!4v1740021252094!5m2!1ses-419!2smx" 
-        width="100%" height="450" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+        <h1 class="text-center mb-4">Ubicaciones</h1> <!-- Título fuera de .row -->
 
+        <div class="row">
+            <!-- Primaria Ubic -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="map1-container">
+                        <h4>Preescolar</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9339.251947775389!2d-89.53591014243537!3d20.99132728046884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567a183131fc35%3A0x461a49387bf1470d!2sKinpaal!5e0!3m2!1ses-419!2smx!4v1740021252094!5m2!1ses-419!2smx" 
+                        width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <p class="card-text">INSERTE UBICACIÓN.</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Tarjeta de Primaria -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="map1-container">
+                    <h4>Primaria</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9339.251947775389!2d-89.53591014243537!3d20.99132728046884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567a183131fc35%3A0x461a49387bf1470d!2sKinpaal!5e0!3m2!1ses-419!2smx!4v1740021252094!5m2!1ses-419!2smx" 
+                    width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <p class="card-text">INSERTE UBICACIÓN.</p>
+                </div>
+            </a>
+        </div>
+        </div>
+    </div>
+    
   <!-- Pie de página -->
 <footer class="pie-pagina">
     <div class="grupo-1">
@@ -134,7 +153,7 @@
         <div class="box logo">
             <figure>
                 <a href="#">
-                    <img src="assets/images/logo_trans.png" alt="Logo del Centro Educativo Kinpaal">
+                    <img src="assets/resources/logo_trans.png" alt="Logo del Centro Educativo Kinpaal">
                 </a>
             </figure>
         </div>

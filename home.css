@@ -18,6 +18,11 @@
     align-items: center;
 }
 
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
 .card img {
     width: 100%;
     height: auto; /* Ajusta la altura proporcionalmente */
@@ -30,13 +35,19 @@
 
 
 h1 {
-    font-size: 34px; 
-    font-weight: bold; 
+    font-size: 31px; 
+    font-weight: 600; 
     text-transform: uppercase; 
-    border-bottom: 2px solid #F2BB16; 
+    border-bottom: 1px solid #F2BB16; 
     color: #048C8C;
     text-align: center;
     margin-bottom: 30px; /* Añade un margen inferior para separación */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h4{
+    font-size: 20px;
+    font-weight: 300;
 }
 
 /* Alineación de las tarjetas */
@@ -71,20 +82,16 @@ h1 {
     margin: 20px 0;
     border-radius: 10px;
     font-family: 'Poppins', serif;
-    font-weight: 900;
-    font-style: normal;
    text-align: center;
-   color: #048C8C;
-
+  
 }
-.map-container h2{
+.map-container h4{
     font-size: 34px; 
-    font-weight: bold; 
-    text-transform: uppercase; /* Convierte el texto en mayúsculas */
-    border-bottom: 2px solid #F2BB16; 
-    color: #048C8C;
+    font-weight:200; 
+   
     text-align: center;
 }
+
 
 .map-container iframe {
     width: 100%;

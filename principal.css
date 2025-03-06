@@ -1,27 +1,15 @@
 /* Importación de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Estilos generales */
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-h1{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-weight: bold;
-}
+
+
 p{
     line-height: 1.5;
+    font-family: "Raleway", sans-serif;
 }
-h2{
-    color: #048C8C;
-}
+
 
 /* Navbar */
 .prin_navbar {
@@ -38,9 +26,14 @@ h2{
 /* Estilos del pie de página */
 .pie-pagina {
     width: 100%;
-    background-color: #efefef;
+    background-color: #FFFBFB;
     padding: 40px 0;
     text-align: center;
+}
+.row{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* Contenedor en dos columnas */
