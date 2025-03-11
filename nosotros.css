@@ -1,82 +1,118 @@
-.nosotros {
-    text-align: center; 
-    padding: 30px 20px; /* Espaciado alrededor del contenido */
-    max-width: 900px; /* Limita el ancho del texto */
-    margin: 0 auto; /* Centra el contenedor en la pantalla */
-  }
-  h1{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 15px; /* Espacio debajo del título */
-    font-size: 28px; 
-    color: #048C8C; 
-    border-bottom: 2px solid #F2BB16; 
-  }
-  
-  .filosofia-box {
-    background-color: #f8f9fa; 
-    padding: 30px; /* Espaciado interno */
-    border-radius: 10px; /* Esquinas redondeadas */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    
-  }
-  
-  
-  
-  .filosofia-box p { /*Parrafo*/
-    font-size: 18px; 
-    line-height: 1.7; /* Espaciado entre líneas */
-    text-align: left; 
-    margin-bottom: 10px; /* Espacio entre elementos */
-    padding-left: 15px; /* Alineación más estética */
-    font-weight: 200;
-  justify-content: center;
 
-  }
-  
-  /* Estilos para la imagen */
-  .nosotros img {
-    width: 60%; /* Tamaño más controlado */
-    max-width: 500px; /* Evita que sea muy grande */
-    border-radius: 15px; /* Esquinas redondeadas */
-    display: block; /* Evita márgenes raros */
-    margin: 20px auto; /* Espacio arriba y abajo y centrado */
-  }
-  
-  /* Estilos para la lista */
-  .creencias {
-    background-color: #f8f9fa; 
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-    max-width: 800px; 
-    margin: 30px auto; 
-    text-align: center; 
-    padding: 1em; /* Espaciado alrededor del contenido */
+:root {
+  --primary-color: #048C8C;
+  --secondary-color: #F2BB16;
+  --text-color: #333;
+}
 
+p {
+  font-size: 15px;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  text-align: center;
+}
+
+.mision-vision {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+}
+
+.mision-box, .vision-box {
+  flex: 1;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin-right: 15px;
+}
+
+.mision-box {
+  order: 1;
+}
+
+.vision-box {
+  order: 2;
+}
+
+.filosofia-box {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* Imagen */
+.mision-vision img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 450px;
+  border-radius: 5px;
+  order: 3;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .mision-vision {
+      flex-direction: column;
+      text-align: center;
   }
-  
-  .creencias h3 {
-    font-size: 24px; 
-    font-weight: bold; 
-    text-transform: uppercase; /* Convierte el texto en mayúsculas */
-    letter-spacing: 1px; /* Espaciado entre letras */
-    margin-bottom: 20px; /* Más espacio debajo */
-    border-bottom: 2px solid #F2BB16; /* Línea decorativa debajo */
-    display: inline-block; /* Para que la línea no ocupe todo el ancho */
-    padding-bottom: 5px; /* Espacio entre el texto y la línea */
-    color: #048C8C; 
+
+  .mision-box, .vision-box, .filosofia-box {
+      text-align: center;
+      max-width: 100%;
   }
-  
-  
-  .creencias li {
-    font-size: 18px; 
-    line-height: 1.6; /* Espaciado entre líneas */
-    text-align: left; 
-    margin-bottom: 10px; /* Espacio entre elementos */
-    list-style-type: disc; /* Viñetas redondas */
-    padding-left: 15px; /* Alineación más estética */
-    font-weight: 200;
-    justify-content: center;
-  }
-  
+}
+
+.creencias {
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 1em;
+}
+
+.creencias h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--secondary-color);
+  display: inline-block;
+  padding-bottom: 5px;
+  color: var(--primary-color);
+}
+
+.creencias li {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 10px;
+  list-style-type: disc;
+  padding-left: 15px;
+  font-weight: 200;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

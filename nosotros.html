@@ -17,52 +17,68 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg prin_navbar">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="homepage.html">
-        <img src="assets/resources/logo_trans.png" alt="Logo del Centro Educativo Kinpaal" width="200" height="100" class="logo_homepage">
-      </a>
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto"> <!-- ms-auto para alinear a la derecha -->
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="homepage.html">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Acerca de
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
-              <li><a class="dropdown-item" href="mision-vision.html">Misión y Visión</a></li>
-              <li><a class="dropdown-item" href="filosofia.html">Modelo Educativo</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Oferta Educativa
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="preescolar.html">Preescolar</a></li>
-              <li><a class="dropdown-item" href="primaria.html">Primaria</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="adminisiones.html">Adminisiones</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <header>
+    <nav class="navbar navbar-expand-lg prin_navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homepage.html">
+                <img src="assets/resources/logo_trans.png" alt="Logo del Centro Educativo Kinpaal" width="200" height="100" class="logo_homepage">
+              </a>                  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="homepage.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Acerca de
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
+                            <li><a class="dropdown-item" href="filosofia.html">Modelo Educativo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Oferta Educativa
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="preescolar.html">Preescolar</a></li>
+                            <li><a class="dropdown-item" href="primaria.html">Primaria</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="adminisiones.html">Adminisiones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
  <box>
 <br>
+<!--Mision y vision-->
+<div class="conteiner-fluid">
+<section class="mision-vision">
+  <div class="mision-box">
+    <h1>Misión</h1>
+    <p> Formar a los alumnos en la conciencia de ir creciendo para ser mejores personas, a través de una formación integral que los lleve a descubrirse miembro de una sociedad a la cual hay que servir.
+    </p>
+  </div>
+  <div class ="vision-box">
+    <h1>Visión</h1>
+    <p> Somos una institución que da respuesta a las necesidades educativas que exige el mucho hoy, a través de una filosofía humanista, donde ponemos en el centro de nuestra acción el crecimiento integral de nuestros alumnos.
+    </p>
+  </div>
+  <img src="assets/photos/niños2.JPG" class="d-block w-100" alt="instalaciones">
 
+</section>
+</div>
 <!--Filosofía-->
 <div class="container-fluid">
   <section class="nosotros">
@@ -70,7 +86,6 @@
       <h1>Filosofía</h1>
       <p>Nuestro programa ofrece un ambiente lleno de respeto y calidez para nuestra niñez, donde promovemos, por medio de estrategias de aprendizaje, su desarrollo integral a través de experiencias de juego que enriquezcan, faciliten y estimulen la construcción de su conocimiento.</p>
     </div>
-    <img src="assets/photos/niños2.JPG" class="d-block w-100" alt="instalaciones">
   </section>
 </div>
 <br><br>
@@ -85,6 +100,21 @@
     <li>El niño construye su propio conocimiento a través de las experiencias vividas.</li>
   </ul>
 </section>
+
+<div class="conteiner icon-text">
+  <div class="icon-text">     
+    <div class="icon-text__icono">
+      <i class="fas fa fa-user"  aria-hidden="true"></i>
+    </div>
+    <div class="icon-text__descripcion">
+      <h5 class="icon-text__titulo"></h5>
+      <p style="color:#718096;">
+        Una visión de la persona humana fundada en su dignidad y centralidad. Todo hombre por su naturaleza es capaz de conocer la verdad y de buscar libremente el bien.
+      </p>
+    </div>
+  </div>
+  
+</div>
 
 
 
