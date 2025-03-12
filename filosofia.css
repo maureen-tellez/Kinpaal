@@ -1,0 +1,38 @@
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; /* Aumentado para mayor claridad */
+    margin-bottom: 10px; /* Ajustado el espaciado */
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid #F2BB16; 
+    color: #048C8C;
+    text-transform: uppercase;
+    max-width: 80%; /* Reducido el ancho máximo del título */
+    margin-left: auto; /* Centra el título */
+    margin-right: auto; /* Centra el título */
+    border-top: 5px;
+   
+}
+h2{
+    font-family: "Raleway",sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    border-top: 2px;
+
+
+}
+p{
+    font-size: 17px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+}
+
+.modeloE {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    gap: 20px; /* Ajustado el espaciado */
+    max-width: 900px;
+    margin: auto;
+    padding: 25px;
+    align-items: center; /* Alinea los elementos al centro */
+}

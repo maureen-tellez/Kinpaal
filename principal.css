@@ -12,6 +12,11 @@
     justify-content: space-evenly;
     gap: 3rem;
 }
+.navbar-brand img{
+    width: 150px; /* Ajusta el tamaño */
+    height: auto;
+
+}
 .carousel img{
   width: 100%;
   height: 600px;
@@ -23,6 +28,14 @@
     background-color: #FFFBFB;
     padding: 40px 0;
     text-align: center;
+}
+.pie-pagina h2{
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.pie-pagina p{
+    font-size: 15px;
 }
 .row{
     align-items: center;
@@ -68,14 +81,14 @@
 
 /* Iconos de redes sociales */
 .pie-pagina .grupo-1 .red-social a {
-    font-size: 28px;
+    font-size: 23px;
     margin: 0 10px;
     color: black;
     transition: color 0.3s;
 }
 
 .pie-pagina .grupo-1 .red-social a:hover {
-    color: #F2BB16;
+    color: #048C8C;
 }
 
 /* Texto de derechos reservados centrado */
@@ -88,7 +101,7 @@
 }
 
 .pie-pagina .grupo-2 small {
-    font-size: 14px;
+    font-size: 10px;
     color: #666;
 }
 

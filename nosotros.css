@@ -6,7 +6,7 @@
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.7;
   text-align: justify;
   margin-bottom: 10px;
@@ -16,13 +16,16 @@ p {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 500;
+  text-transform:inherit;
   margin-bottom: 15px;
   font-size: 28px;
   color: var(--primary-color);
   border-bottom: 2px solid var(--secondary-color);
   text-align: center;
+  white-space: nowrap; /* Evita que el texto se envuelva */
+  overflow: hidden;    /* Oculta el texto que excede el ancho */
+  max-width: 100%; 
 }
 
 .mision-vision {
@@ -54,15 +57,15 @@ h1 {
 .filosofia-box {
   max-width: 900px;
   margin: auto;
-  padding: 30px;
+  padding: 20px;
 }
 
 /* Imagen */
 .mision-vision img {
   width: 100%;
   height: auto;
-  max-width: 500px;
-  max-height: 450px;
+  max-width: 450px;
+  max-height: 300px;
   border-radius: 5px;
   order: 3;
   margin: 0 auto;
@@ -83,33 +86,25 @@ h1 {
 }
 
 .creencias {
-  border-radius: 10px;
-  max-width: 800px;
-  margin: 30px auto;
-  text-align: center;
-  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
 }
 
-.creencias h3 {
-  font-size: 24px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid var(--secondary-color);
-  display: inline-block;
-  padding-bottom: 5px;
-  color: var(--primary-color);
-}
 
 .creencias li {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;
   text-align: left;
   margin-bottom: 10px;
   list-style-type: disc;
   padding-left: 15px;
   font-weight: 200;
+  
 }
 
 img {
