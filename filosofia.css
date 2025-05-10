@@ -2,9 +2,9 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600; /* Aumentado para mayor claridad */
     margin-bottom: 10px; /* Ajustado el espaciado */
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    border-bottom: 1px solid #F2BB16; 
+    border-bottom: 2px solid #F2BB16; 
     color: #048C8C;
     text-transform: uppercase;
     max-width: 80%; /* Reducido el ancho máximo del título */
@@ -16,23 +16,28 @@ h1 {
 h2{
     font-family: "Raleway",sans-serif;
     font-size: 19px;
-    font-weight: 300;
+    font-weight: 500;
     border-top: 2px;
-
-
+    text-align: left;
+    font-style: italic;
+    border-top: 5px;
 }
 p{
     font-size: 17px;
     font-family: "Poppins",sans-serif;
-    font-weight: 300;
-}
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-weight: 200;
+  }
 
-.modeloE {
+.modeloE, .fundamentos , .estrategias, .evaluacion{
     display: flex;
     flex-direction: column; /* Alinea los elementos en columna */
-    gap: 20px; /* Ajustado el espaciado */
+    gap: 10px; /* Ajustado el espaciado */
     max-width: 900px;
     margin: auto;
-    padding: 25px;
+    padding: 10px;
     align-items: center; /* Alinea los elementos al centro */
 }

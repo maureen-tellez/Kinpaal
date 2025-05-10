@@ -7,7 +7,7 @@
 
 /* Navbar */
 .prin_navbar {
-   background-color: #e8e7e7a4;
+   background-color: #FFFBFB;
     display: flex;
     justify-content: space-evenly;
     gap: 3rem;
@@ -33,9 +33,12 @@
     font-size: 22px;
     font-weight: 400;
     text-transform: capitalize;
+    text-align: center;
 }
 .pie-pagina p{
     font-size: 15px;
+    text-align: center;
+    font-weight: 200;
 }
 .row{
     align-items: center;
@@ -85,6 +88,7 @@
     margin: 0 10px;
     color: black;
     transition: color 0.3s;
+    text-decoration: none;
 }
 
 .pie-pagina .grupo-1 .red-social a:hover {
@@ -101,8 +105,9 @@
 }
 
 .pie-pagina .grupo-2 small {
-    font-size: 10px;
+    font-size: 13px;
     color: #666;
+    text-align: center;
 }
 
 /* Responsividad: móvil */
